@@ -1,21 +1,29 @@
 import React from 'react';
-import { Button, Forms } from 'bootstrap';
-import { CardGroup } from 'react-bootstrap';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Button, Form, Input, Alert, Card } from 'react-bootstrap';
 
 
 const Login = () => {
-  
-
   return (
+    
     <>
+
     <div className="container">
-      <form>
-      <h1>Login</h1>
-        <input type='text'></input>
-        <input type='password'></input>
-        <button type='button'> login</button>
-      </form>
+      <Card>
+        <Card.Body>
+          <Card.Title>Login</Card.Title>
+          <Form>
+            <input type='text' ></input>
+            <input type='password'></input>
+            <Button type='button'variant='primary'> login</Button>
+            <Alert variant='success'> Login Success </Alert>
+          </Form>
+        </Card.Body>
+      </Card>
+     
     </div>
+
     </>
   );
 };
