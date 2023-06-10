@@ -1,15 +1,13 @@
 import React from 'react';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Form, Input, Alert, Card } from 'react-bootstrap';
+import { Button, Form, Input, Alert, Card, Container } from 'react-bootstrap';
 
 
 const Login = () => {
   return (
     
     <>
-
-    <div className="container">
+    <Container>
       <Card>
         <Card.Body>
           <Card.Title>Login</Card.Title>
@@ -21,7 +19,7 @@ const Login = () => {
           </Form>
         </Card.Body>
       </Card>
-    </div>
+    </Container>
     </>
   );
 };

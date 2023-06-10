@@ -18,6 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "buiild-css": "tailwindcss build src/components/app.css -o public/styles.css",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
