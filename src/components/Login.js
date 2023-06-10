@@ -7,7 +7,7 @@ import { Button, Form, Input, Alert, Card, Container, Stack } from 'react-bootst
 const Login = () => {
   const [isButtonDisabled, setButtonDisabled] = useState('primary');
   const [isAlertHidden, setAlertHidden] = useState(true);
-
+  
   const handleClick = () => {
     setButtonDisabled('dark');
     setAlertHidden(false);
@@ -19,7 +19,6 @@ const Login = () => {
     <Container>
       <Card>
         <Card.Body>
-          
           <Card.Title>Login</Card.Title>
           <Form>
           <Stack gap={3} className="col-md-5 mx-auto">
