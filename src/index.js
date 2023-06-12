@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App';
-import SignUp from './components/SignUp';
+import Qrscan from './components/QrScan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <SignUp />
+    <Qrscan />
 );
